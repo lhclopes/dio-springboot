@@ -4,7 +4,8 @@ public class ContaPoupanca extends Conta {
 
     public static Integer SEQUENCIAL = 2000;
 
-    public ContaPoupanca(Cliente cliente) {
+    public ContaPoupanca(Banco banco, Cliente cliente) {
+        super.banco = banco;
         super.cliente = cliente;
         super.agencia = Conta.AGENCIA_PADRAO;
         super.numero = SEQUENCIAL++;
