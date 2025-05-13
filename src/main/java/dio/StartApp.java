@@ -1,17 +1,13 @@
 package dio;
 
-import java.util.List;
-import java.util.Map;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
-import dio.app.ConversorJson;
 import dio.app.Remetente;
-import dio.model.User;
-import dio.repository.UserRepository;
+import dio.web.model.User;
+import dio.web.repository.UserRepository;
 
 @Component
 public class StartApp implements CommandLineRunner {

@@ -1,8 +1,8 @@
-package dio.repository;
+package dio.web.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import dio.model.User;
+import dio.web.model.User;
 
 public interface UserRepository extends JpaRepository<User, Long> {
 
