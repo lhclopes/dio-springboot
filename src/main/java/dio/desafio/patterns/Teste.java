@@ -51,6 +51,8 @@ public class Teste {
         //FACADE
         Facade facade = new Facade();
         facade.migrarCliente("Luiz", "12710-260");
+
+
         
     }
 
